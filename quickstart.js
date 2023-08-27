@@ -6,7 +6,7 @@
   var volumeIndicators = document.getElementById('volume-indicators');
 
   log('Requesting Capability Token...');
-  $.getJSON('https://paste-url-here/capability-token')
+  $.getJSON('https://cyan-goose-4742.twil.io/capability-token')
   //Paste URL HERE
     .done(function (data) {
       log('Got a token.');
